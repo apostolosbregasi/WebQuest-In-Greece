@@ -1,0 +1,73 @@
+body{
+    background-image: url("images/f4backgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+}
+
+h1{
+    color: bisque;
+    font-style:oblique;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px black;
+    font-size: 35px;
+}
+
+#headline{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+    border: solid;
+    border-color: #3e8e41;
+    border-radius: 10px;
+    width: 75%;
+    color: wheat;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 75px;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #lineDiv{
+    margin-top: 60px;
+    color: white;
+  }
+
+  .scenarioNames{
+    font-size: 15px;
+    border-top: black;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-align: end;
+    
+  }
+  
+  @media all and (max-width:1200px) {
+    p{
+      width:100%;
+    }
+  }

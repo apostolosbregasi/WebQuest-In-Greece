@@ -1,0 +1,105 @@
+body{
+    background-image: url("images/hikersBackground.jpg");
+    background-size:cover;
+    background-color: white;
+}
+
+
+h1 {
+    border: 1px solid;
+    margin: 0 auto; 
+    width:fit-content;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    background: linear-gradient(to right, rgb(134, 133, 132), rgb(82, 77, 77));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(114, 119, 122);
+    margin-top: 75px;
+    padding: 10px;
+    
+}
+
+#questions, #sources{
+    color: white;
+    font-size: 25px;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(114, 119, 122);
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 15px 15px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(114, 119, 122);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #53535325;
+    margin-bottom: 5px;
+  }
+  
+  button:hover {background-color: #dad7d577}
+  
+  button:active {
+    background-color: #a7bba875;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .vertical-center {
+    position: relative;
+    left: 45%;
+  }
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: gray;
+}
+
+a:active{
+    color: white;
+}
+
+#lineDiv{
+    color: white;
+}
+
+.scenarioNames{
+    font-size: 15px;
+    border-top: black;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-align: end;
+}
+  
+ @media all and (max-width:1200px){
+    #questions, #sources, h4{
+        width:100%;
+    }
+}
